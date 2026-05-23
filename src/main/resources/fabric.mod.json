@@ -1,0 +1,28 @@
+{
+  "schemaVersion": 1,
+  "id": "fantym_utility_mod",
+  "version": "${version}",
+  "name": "Fantym Utility Mod",
+  "description": "Полезный утилитарный мод для сервера Fantym",
+  "authors": [
+    "levvokhmanov-hub"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/fantym_utility_mod/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.fantym.mod.FantymUtilityMod"
+    ],
+    "client": [
+      "com.fantym.mod.FantymUtilityModClient"
+    ]
+  },
+  "mixins": [],
+  "depends": {
+    "fabricloader": ">=0.16",
+    "fabric-api": "*",
+    "minecraft": ">=1.21.6"
+  }
+}
